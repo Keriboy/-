@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
 
-You can use the [editor on GitHub](https://github.com/Keriboy/-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Keriboy/-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <base href="<%=basePath%>">
+    
+    <title>My JSP 'index.jsp' starting page</title>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+  </head>
+  
+  <body bgcolor="green" style="height: 251px; width: 1125px; ">
+    <center><h1>This is my JSP page.</h1> <br>
+    <font size="8">This is my JSP page.</font> <br>
+    <h1>This is my JSP page.</h1> <br>
+    <h1>This is my JSP page.</h1> <br>
+    <h1>This is my JSP page.</h1> <br>
+    <h1>This is my JSP page.</h1> <br>
+    <h1>This is my JSP page.</h1> <br>
+    <h1>This is my JSP page.TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT</h1> <br>
+    <h1>This is my JSP page.</h1> <br>
+    <h1>This is my JSP page.</h1> <br>
+    <h1>This is my JSP page.</h1> <br>
+  </body>
+</html>
